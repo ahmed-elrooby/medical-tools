@@ -1,0 +1,34 @@
+.container .row .img img{
+    height: 454px;
+    border-radius: 10px;
+}
+.container .row .data{
+    gap:30px;
+    display: flex;
+    flex-direction: column;
+
+}
+.container .row .data h1{
+    color: var(--title);
+    border-bottom: 3px solid var(--main-color);
+    width: fit-content;
+    padding-bottom: 11px;
+}
+.container .row .data p{
+    line-height: 2;
+    text-transform: capitalize;
+    font-size: 18px;
+    padding: 10px 0;
+    color: var(--main-title);
+
+}
+.container .row .data span{
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--main-color);
+    border: 1px solid var(--title);
+    padding: 10px;
+    border-radius: 9px;
+    width: fit-content;
+
+}

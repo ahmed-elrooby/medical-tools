@@ -1,0 +1,37 @@
+.footer{
+    background-color: var(--second-bg);
+}
+.footer .row img{
+    width: 99px;
+    height: 99px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    cursor: pointer;
+}
+.footer .row img:hover{
+    scale: 1.4;
+}
+
+svg.svg-inline--fa {
+    font-size: 25px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    color: white;
+}
+svg.svg-inline--fa:hover {
+    color:#BD11DF;
+    scale: 1.2;
+}
+
+

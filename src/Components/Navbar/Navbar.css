@@ -1,0 +1,47 @@
+nav {
+    background-color: var(--second-bg);
+    
+}
+
+.navbar .container-fluid img{
+    width: 87px;
+    height: 99px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.navbar .navbar-toggler{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid white;
+    font-size: 25px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.navbar .navbar-toggler:focus{
+    box-shadow: none;
+} 
+.navbar .navbar-toggler[aria-expanded="true"]{
+    border: 2px solid #BD11DF;
+}
+
+
+.navbar .container-fluid .navbar-nav > li > a{
+    font-size: 18px;
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    color: var(--title);
+}
+.navbar .container-fluid .navbar-nav > li > a:hover{
+    color: var(--main-color);
+}
